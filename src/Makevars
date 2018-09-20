@@ -1,0 +1,3 @@
+CXX_STD = CXX14
+PKG_LIBS += -lstdc++
+PKG_LIBS += -lparquet
