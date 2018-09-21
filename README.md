@@ -1,16 +1,14 @@
 # RParquet #
-
 ## Overview ##
-    RParquet is a tool for read/write R Data Frames from/into Apache Parquet file. 
-    The tool operates on the data by using Apache Arrow API.
-    It supports some data types mapping between R and Parquet.
-    R types: "integer", "integer64", "nanotime", "numeric", "character", "logical"
-    Arrow(Parquet) "INT32", "INT64", "TIMESTAMP", "DOUBLE", "STRING", "BOOL"
-
+- RParquet is a tool for read/write R Data Frames from/into Apache Parquet file. 
+- The tool operates on the data by using Apache Arrow API.
+- It supports some data types mapping between R and Parquet.
+- R types: "integer", "integer64", "nanotime", "numeric", "character", "logical"
+- Arrow(Parquet): "INT32", "INT64", "TIMESTAMP", "DOUBLE", "STRING", "BOOL"
 ## Installation ##
+- Please check [parquet-cpp](https://github.com/apache/parquet-cpp.git) to install the parquet-cpp library.
+- The arrow version need to be changed when we cmake parquet-cpp
 
-    Please check the [GitHub Pages](https://github.com/apache/parquet-cpp.git) to install the parquet-cpp library.
-    The arrow version need to be changed when we cmake parquet-cpp
 ###### STEPS ######
     1. git clone https://github.com/apache/arrow.git
        git rev-parse --verify HEAD
